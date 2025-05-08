@@ -1492,3 +1492,5 @@ if __name__ == "__main__":
     initialize_files()
     print("🟢 Bot Running with API Integration...")
     bot.polling(none_stop=True)
+    def run():
+    bot.polling()  # Add this at the end of adminbot.py to start polling
